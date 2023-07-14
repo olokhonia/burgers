@@ -33,4 +33,5 @@ jobs:
       
     - name: Print environment variables
       run: |
-        echo $GITHUB_ENV
+        echo "Printing environment variables..."
+        echo "$GITHUB_ENV"
