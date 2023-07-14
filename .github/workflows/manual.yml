@@ -33,7 +33,4 @@ jobs:
       
     - name: Print environment variables
       run: |
-        echo "Printing environment variables..."
-        for env in $($GITHUB_ENV); do
-          echo "$env=$($env)"
-        done
+        echo $GITHUB_ENV
